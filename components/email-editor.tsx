@@ -34,6 +34,7 @@ export function EmailEditor() {
             <CardBody className="pt-0">
               <Select
                 selectedKeys={[currentTemplate]}
+                variant="bordered"
                 onSelectionChange={(keys) => {
                   const selected = Array.from(keys)[0] as string
                   setCurrentTemplate(selected)
