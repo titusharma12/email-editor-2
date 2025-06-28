@@ -76,8 +76,9 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 ## 📦 Build for Production
 
 ```bash
-pnpm build
-pnpm start
+npm i
+npm run dev
+npm run start
 ```
 
 ---
